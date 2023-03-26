@@ -1,0 +1,10 @@
+## How to use more than one virtual environment in the same python script. 
+# Import pandas from the first virtual environment
+import sys
+sys.path.append('path/to/env1/Lib/site-packages')
+import pandas as pd
+
+# Import numpy from the second virtual environment
+import sys
+sys.path.append('path/to/env2/Lib/site-packages')
+import numpy as np
